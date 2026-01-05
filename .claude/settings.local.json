@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(. venv/bin/activate)",
+      "Bash(pip show:*)",
+      "Bash(env)",
+      "Bash(pip install:*)",
+      "Bash(python scripts/ingest_documents.py:*)"
+    ]
+  }
+}
